@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/hamicon"
+        android:layout_marginStart="25dp"
+        tools:ignore ="ContentDescription"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:src ="@drawable/bell"
+        android:layout_marginStart="280dp"
+        tools:ignore ="ContentDescription"/>
+</Toolbar>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="12dp"
+        tools:ignore="HardcoreText">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Action"
+            android:background="@drawable/edit_border"
+            android:textColor="@color/white" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kids"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/button_gradient"
+            android:textColor="@color/white" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Puzzle"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/edit_border"
+            android:textColor="@color/white" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Racing"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/edit_border"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Featured games"
+        android:fontFamily="@font/lato"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="150dp"
+        android:textSize="20dp"
+        android:layout_marginStart="35dp"
+        tools:ignore="HardCodedText"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="160dp">
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="35dp"
+            android:src="@drawable/one_piece" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="28dp"
+            android:src="@drawable/border"
+            tools:ignore ="ContentDescription" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="400dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top kids game"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginStart="40dp"
+            android:fontFamily="@font/lato"
+            android:textStyle="bold"
+            tools:ignore="HardCodedText"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="See all"
+            android:textSize="15dp"
+            android:textColor="#3899EE "
+            android:layout_marginStart="180dp"
+            android:fontFamily="@font/lato"
+            android:textStyle="bold"
+            tools:ignore="HardCodedText"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="430dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="40dp"
+            android:src="@drawable/wonderbox"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Wonder Box"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="HardCodedtext" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/download"
+                    tools:ignore="ContentDescription"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/lato"
+                    android:text="86k"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardCodedText" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_gradient"
+            android:text="Play"
+            android:textColor="#fff" />
+    </LinearLayout>
+    /**************
+    LINEAR LAYOUT 2
+    **************/
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="510dp">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="40dp"
+            android:src="@drawable/locoroco"
+            tools:ignore="ContentDescription" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loco Roco"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                tools:ignore="HardCodedtext"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="10dp">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/download"
+                    tools:ignore="ContentDescription"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/lato"
+                    android:text="74k"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardCodedText"/>
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_gradient"
+            android:text="Play"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/bottom_navbar"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/home" />
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mail"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="10dp"/>
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/settings"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</RelativeLayout>
